@@ -10,4 +10,5 @@ def display_rainbow(colors)
     end
     counter += 1
   end
+  puts my_colors
 end
