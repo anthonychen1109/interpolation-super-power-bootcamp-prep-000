@@ -4,7 +4,7 @@ def display_rainbow(colors)
   comma = ','
   my_colors = ""
   while counter < colors.length
-    my_colors += "#{colors[counter][0].upcase} : #{colors[counter]}"
+    my_colors += "#{colors[counter][0].upcase}: #{colors[counter]}"
     if counter < colors.length - 1
       my_colors += ", "
     end
